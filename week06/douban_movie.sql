@@ -1,0 +1,9 @@
+CREATE DATABASE `test` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+CREATE TABLE `douban_movie` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `n_star` int NOT NULL,
+  `short` varchar(4000) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `sentiment` float DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=69 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
